@@ -48,15 +48,19 @@ flowchart LR
     B --> C[SAST]
     B --> D[SCA]
     B --> E[IaC Scanning]
+    B --> P[Arko]
     C --> F[Static Code Analysis]
     D --> G[Dependency Check]
     E --> H[Infrastructure Configuration]
+    P --> Q[DevSecOps security architecture reasoning]
+    Q --> R[Architecture and design findings]
     F --> I[Code Vulnerabilities]
     G --> J[Dependency Vulnerabilities]
     H --> K[Infrastructure Misconfigurations]
     I --> L[Remediation Actions]
     J --> L
     K --> L
+    R --> L
     L --> M[Reporting and Notifications]
     M --> N[Development Team]
     M --> O[Security Team]
