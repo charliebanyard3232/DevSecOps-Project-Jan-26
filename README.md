@@ -42,7 +42,7 @@ By integrating SAST, SCA, and IaC scanning practices into the DevSecOps pipeline
 # DevSecOps Project Diagram
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#22c55e', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#15803d', 'lineColor': '#166534', 'secondaryColor': '#86efac', 'tertiaryColor': '#dcfce7', 'mainBkg': '#f0fdf4', 'nodeBorder': '#16a34a', 'clusterBkg': '#ecfdf5'}}}%%
+%%{init: {'theme': 'default', 'themeVariables': {'primaryColor': '#86efac', 'primaryTextColor': '#14532d', 'primaryBorderColor': '#15803d', 'lineColor': '#166534', 'secondaryColor': '#bbf7d0', 'tertiaryColor': '#dcfce7'}}}%%
 flowchart LR
     A[GitHub Repos] --> B{CI/CD Pipeline GH Actions}
     B --> C[SAST]
